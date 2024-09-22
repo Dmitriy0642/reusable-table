@@ -1,0 +1,68 @@
+.wrapper {
+  min-width: 100%;
+  min-height: 100%;
+  position: absolute;
+  z-index: 999;
+  height: 600px;
+  top: 0%;
+  left: 0%;
+  background: linear-gradient(45deg, #49a09d, #5f2c82);
+  color: white;
+  cursor: default;
+}
+
+.title {
+  font-size: 18px;
+}
+
+.label {
+  font-size: 16px;
+  padding: 5px;
+  text-transform: capitalize;
+}
+
+.input {
+  padding: 2px;
+  width: 60%;
+  border: 2px solid black;
+  border-radius: 4px;
+  background: #fefefe94;
+}
+
+.modalcontainer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+
+.saveButton {
+  margin-top: 10px;
+}
+
+.modalbody {
+  display: flex;
+  flex-direction: column;
+
+  width: 50%;
+  justify-content: space-between;
+}
+
+.modal {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  align-items: center;
+  margin-top: 100px;
+  height: 400px;
+}
+
+.closeButton {
+  cursor: pointer;
+}
+
+.modal_header {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
